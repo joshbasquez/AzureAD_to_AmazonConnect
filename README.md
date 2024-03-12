@@ -17,6 +17,6 @@ script to export users from AzureAD for import into Amazon Connect dashboard
 - Add the desired Amazon Connect users to an Azure AD Group
 - Ensure powershell has the Azure Powershell Module, and is able to connect to your tenant via Connect-AzAccount
 - Edit script or open to verify the $exportFile filename
-- Connect to the Azure Account. Change to the directory with .ps1, and Run Script, provide the displayname of the AzureAD 
+- Connect to the Azure Account. Change to the directory with .ps1, and Run Script, provide the displayname of the AzureAD Group containing the Connect Agents 
 - upload the csv into Amazon Connect by a Connect Administrator
   (Connect -> User Management -> Add new users -> Import Users using a .csv template)
