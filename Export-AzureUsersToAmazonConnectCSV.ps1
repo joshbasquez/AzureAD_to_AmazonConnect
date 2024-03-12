@@ -1,4 +1,4 @@
-# script to generate list of azuread users 
+# script to generate csv of azuread users 
 # for import into Amazon Connect
 # 
 # Prerequisites:
