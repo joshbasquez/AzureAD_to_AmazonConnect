@@ -1,0 +1,2 @@
+﻿first name,last name,secondary email,mobile,user login,routing profile name,security_profile_name_1|security_profile_name_2,user_hierarchy_1|user_hierarchy_2,phone type (soft/desk),phone number,soft phone auto accept (yes/no),ACW timeout (seconds),tags
+first,last,secondaryemail@example.com,+11234567891,user,Basic Routing Profile,Admin|Agent,Planet|Continent|Country|State|City,soft,1234567890,yes,1,key1|value1||key2|value2
