@@ -4,7 +4,7 @@ script to export users from AzureAD for import into Amazon Connect dashboard
 # Prerequisites:
 - Azure Powershell module: Install-Module -Name Az -Repository PSGallery -Force
 - Connection to Azure Account: Connect-AzAccount
-- Single-Sign On for Azure Accounts into Amazon Connect. 
+- Assumes that Single-Sign On has already been configured for EntraID users to connect to Amazon Connect. All users will need to be assigned to the "AWS Single-Account Access" Enterprise Application.  This script is for ensuring that the AzureAD users have identites also created in Amazon Connect's "User Management".
 - This script assumes the full upn is passed in the Azure App Claims
   where Claim Name https://aws.amazon.com/SAML/Attributes/RoleSessionName = user.userprincipalname
   if another claims value is being passed, edit line: $r."user login" = $m.<desiredValue>
