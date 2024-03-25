@@ -1,5 +1,5 @@
 # Export-AzureUsersToAmazonConnectCSV
-script to export users from AzureAD for import into Amazon Connect dashboard
+script to export users from AzureAD for import into Amazon Connect dashboard. the script outputs a csv in the format provided by Amazon Connect for importing users into the Amazon Connect User Management menu. 
 
 # Prerequisites:
 - Azure Powershell module: Install-Module -Name Az -Repository PSGallery -Force, and ability to connect to Azure Account: Connect-AzAccount
